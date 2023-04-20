@@ -1,0 +1,70 @@
+{
+    "Actor": {
+        "types": [
+            "Personnage", 
+            "pnj"
+        ],
+        "Personnage":{
+            "blessure": "Indemne",
+            "experience": 0,
+            "heroisme": 0,
+            "atouts" : [],
+            "complication" : [],
+            "equipement" : [],
+            "attributs" : {
+                "vigueur": {
+                    "valeur": "2d",
+                    "competences": {
+                        "lutte": {
+                            "valeur": "",
+                            "specialites": ""
+                        },
+                        "couteau": {
+                            "valeur": "",
+                            "specialites": ""
+                        },
+                        "puissance": {
+                            "valeur": "",
+                            "specialites": ""
+                        }
+                    }
+                },
+                "agilite": {
+                    "valeur": "2d",
+                    "competences": {}
+                },
+                "esprit": {
+                    "valeur": "2d",
+                    "competences": {}  
+                },
+                 "aura": {
+                    "valeur": "2d",
+                    "competences": {}
+                }
+            }
+        }
+    },
+    "Item": {
+        "types": [
+            "arme",
+            "protection"
+        ],
+        "arme": {
+            "base": "",
+            "degats": "",
+            "1ou2": "",
+            "structure": "",
+            "taille": "",
+            "empale": false,
+            "pare": false,
+            "perce-armure": false,
+            "perce-armure-value": 0,
+            "for-rq": "",
+            "dex-rq": "",
+            "prix": ""
+        },
+        "protection": {
+            "protection": "2"
+        }
+    }
+}

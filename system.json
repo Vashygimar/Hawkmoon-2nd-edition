@@ -1,0 +1,28 @@
+{
+    "id": "Hawkmoon-2nd-edition-custom",
+    "title": "hawkmoon 2nd edition (custom)",
+    "description": "hawkmoon 2nd edition Oriflam 1996 (custom)",
+    "version": "0.0.1",
+    "compatibility": {
+      "minimum": "10.291",
+      "verified": "10"
+    },
+    "authors":[
+        {
+          "name": "Hubert"
+        }
+      ],
+    "esmodules": [
+      "module/hawkmoon.js"
+    ],
+    "styles": [
+      "css/hawkmoon.css"
+    ],
+    "packs": [],
+    "languages": [],
+    "media": [],
+    "socket": true,
+    "gridDistance": 1,
+    "gridUnits": "m",
+    "primaryTokenAttribute": ""
+  }

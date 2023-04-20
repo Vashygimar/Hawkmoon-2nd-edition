@@ -1,0 +1,43 @@
+<form class="{{cssClass}}" autocomplete="off">
+    <img src="{{item.img}}" data-edit="img" title="{{item.name}}" height="128" width="128"/>
+    <h1><input name="name" type="text" value="{{item.name}}" placeholder="Name"/></h1>
+    <label>Base
+        <input name="data.base" type="text" value="{{data.base}}" placeholder=""/>
+    </label>
+    <label>Dégats
+        <input name="data.degats" type="text" value="{{data.degats}}" placeholder=""/>
+    </label>
+    <label>1 ou 2 Mains
+        <input name="data.1ou2" type="text" value="{{data.1ou2}}" placeholder=""/>
+    </label>
+    <label>Points de Structure
+        <input name="data.structure" type="text" value="{{data.structure}}" placeholder=""/>
+    </label>
+    <label>Taille
+        <input name="data.taille" type="text" value="{{data.taille}}" placeholder=""/>
+    </label>
+    <label>Empale
+        <input name="data.empale" type="checkbox" {{#if data.empale}}checked{{/if}}>
+    </label>
+    <label>Pare
+        <input name="data.pare" type="checkbox" {{#if data.pare}}checked{{/if}}>
+    </label>
+    <label>Perce Armure
+        <input name="data.perce-armure" type="checkbox" {{#if data.perce-armure}}checked{{/if}}>
+    </label>
+    {{#if data.perce-armure}}
+        <div>
+            <label for="perce-armure-value">Valeur de Perce Armure :</label>
+            <input name="data.perce-armure-value" type="text" value="{{data.perce-armure-value}}" placeholder="Entrez la valeur de Perce Armure" id="perce-armure-value">
+        </div>
+    {{/if}}
+    <label>For rq
+        <input name="data.for-rq" type="text" value="{{data.for-rq}}" placeholder=""/>
+    </label>
+    <label>Dex rq
+        <input name="data.dex-rq" type="text" value="{{data.dex-rq}}" placeholder=""/>
+    </label>
+    <label>Prix
+        <input name="data.prix" type="text" value="{{data.prix}}" placeholder=""/>
+    </label>
+</form>

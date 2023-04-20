@@ -2,7 +2,7 @@
     "id": "Hawkmoon-2nd-edition-custom",
     "title": "hawkmoon 2nd edition (custom)",
     "description": "hawkmoon 2nd edition Oriflam 1996 (custom)",
-    "version": "0.0.1",
+    "version": "0.0.4",
     "compatibility": {
       "minimum": "10.291",
       "verified": "10"
